@@ -1,0 +1,16 @@
+{
+  "server": {
+    "isLogOn": true,
+    "__rem__Port": "0 means OS will assign a port (1337 is node's `default`)",
+    "port": 1338
+  },
+  "db": {
+    "ip": "localhost",
+    "isProduction": false,
+    "__rem__Login__": "THIS specific login MUST NOT exist in production env",
+    "loginU": "dev",
+    "loginP": "1",
+    "name": "reskew",
+    "port": 27017
+  }
+}
