@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" /><!-- TO_DEV : add web site manifest -->
+    <title>reskew.trade</title>
+</head>
+<body ng-app="trade_reskew" ng-strict-di ng-jq="">
+    <reskew-state></reskew-state>
+    <link rel="stylesheet" href="/view/reskew.css"/>
+    <div id="divErr"><p></p></div>
+    <noscript><h1>No JavaScript</h1></noscript><!-- TO_DEV -->
+    <div id="divLogin" class="spa_inactive"
+         ng-controller="loginController">
+        <reskew-login-form></reskew-login-form>
+    </div>
+    <div id="divNgApp" class="spa_inactive">
+        <rsq-menu-xpect-xdate></rsq-menu-xpect-xdate>
+        <div ng-controller="studyController as ctrl">
+            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="100" cy="100" r="{{rad}}" />
+            </svg>
+            <h2>{{ctrl.r}}</h2>
+        </div>
+    </div>
+    <script>//objectidEx.js -> modified `objectid.js` (`toHexString`)
+        const Buffer = Uint8Array;
+    </script>
+    <script src="/node_modules/bson/lib/bson/objectidEx.js"></script>
+    <script src="/view/reskewJS.js"></script>
+</body>
+</html>
