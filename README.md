@@ -13,7 +13,7 @@ So any similarity to an existing application / software is a sheer incidental ou
 "server/db" - mongoimport these files to the DB.
 
 3. Please <br/>
-I encourage you NEVER to participate in stock exchange TRADING of ANY kind. <br/>
+I encourage you to NEVER participate in stock exchange TRADING of ANY kind. <br/>
 Just don't! <br/>
 Avoid it! <br/>
 Let the trading robots annihilate each other.<br/>
