@@ -10,4 +10,4 @@ Please be careful.
 I encourage you NEVER to participate in stock exchange TRADING of ANY kind.
 Just don't!
 Avoid it!
-Just let the trading robots annihilate each other.
+Let the trading robots annihilate each other.
