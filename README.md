@@ -10,7 +10,7 @@ So any similarity to an existing application / software is a sheer incidental ou
 2. Structure <br/> 
 "view" - Contains all the files which are HTTP transmitted to the end-user. <br/>
 "server" - The node.js server app (notice "Server.RC.js" lines 101-102). <br/>
-"server/db" - Files to mongoimport to the DB.
+"server/db" - mongoimport these files to the DB.
 
 3. Please <br/>
 I encourage you NEVER to participate in stock exchange TRADING of ANY kind. <br/>
