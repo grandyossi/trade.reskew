@@ -1,0 +1,30 @@
+[
+  {
+    "_id": { "$oid": "580a58f0e41c61c726563526" },
+    "email": "grandyossi@gmail.com",
+    "password": "11111",
+    "preferences": {
+      "exchange": "TASE",
+      "asset": "TA25"
+    },
+    "views": {
+      "TASE": [ "TA25" ]
+    },
+    "dates": {
+      "registered": { "$date": 1476989100000 },
+      "confirmed": { "$date": 1476989220000 },
+      "preferences": { "$date": 1480800300000 }
+    }
+  },
+  {
+    "email": "dev@reskew.trade",
+    "password": "11111",
+    "preferences": {
+    },
+    "dates": {
+      "registered": { "$date": 1476989100000 },
+      "confirmed": { "$date": 1476989220000 },
+      "preferences": { "$date": 1476989220000 }
+    }
+  }
+]
