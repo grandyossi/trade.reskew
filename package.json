@@ -1,0 +1,14 @@
+{
+  "name": "reskew.trade",
+  "version": "0.6.0098",
+  "description": "trade.reskew Browser Application : nodejs server, mongodb, angularjs client-view",
+  "main": "trade.reskew.Server.js",
+  "author": {
+    "name": "Yossi Schwartz",
+    "email": "grandyossi@gmail.com"
+  },
+  "dependencies": {
+    "angular": "^1.6.1",
+    "mongodb": "^2.2.21"
+  }
+}
