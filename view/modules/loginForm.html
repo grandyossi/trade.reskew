@@ -1,0 +1,21 @@
+<!-- ng-include="'/view/loginForm.html'" result (2016-10-17) :
+        angular will not add `model` elements to $scope -->
+<form name="loginForm" ng-submit="onLoginAttempt()">
+    <label for="loginEmail">Email:</label>
+    <input type="email" class="inTxt_regular" tabindex="1"
+           required
+           id="loginEmail" ng-model="loginEmail"
+           ng-minlength="8" ng-maxlength="64" />&nbsp;&nbsp;&nbsp;
+    <label for="loginPwd">Password:</label>
+    <input type="password" class="inTxt_regular" tabindex="2"
+           required
+           id="loginPwd" ng-model="loginPwd"
+           ng-minlength="4" ng-maxlength="32" />&nbsp;
+    <input type="submit" id="bnLogin" value="Login" tabindex="4" />
+    <br /><input type="checkbox"
+                 id="isStoreLocal"
+                 ng-model="isStoreLocal"
+                 title="Data is NOT deleted once closing the browser"
+                 tabindex="3" />&nbsp;
+    <label for="isStoreLocal">Remeber Me</label>
+</form>
