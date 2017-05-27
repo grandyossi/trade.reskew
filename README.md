@@ -1,6 +1,6 @@
 # trade.reskew
  
-An AngularJS 1.8 SPA (via node.js & mongoDB), which serves as a derivatives-pricing instrument.
+An AngularJS 1.6 SPA (via node.js & mongoDB), which serves as a derivatives-pricing instrument.
 
 1. General <br/>
 This application's logic is based on many years of personal trading & analysis experience. <br/>
