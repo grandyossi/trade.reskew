@@ -4,7 +4,7 @@ An AngularJS 1.6 SPA (via node.js & mongoDB), which serves as a derivatives-pric
 
 1. General <br/>
 This application's logic is based on many years of personal trading & analysis experience. <br/>
-I've never installed / tested any derivatives-pricing application of any kind -<br/>
+I've never installed / tested a non classic B&S derivatives-pricing application -<br/>
 So any similarity to an existing application / software is a sheer incidental outcome.
 
 2. Structure <br/> 
